@@ -15,7 +15,7 @@ let funcionPredeterminada = () => {
         let jsHoras = document.getElementById('logicJavascript').value
 
         let resultado = (valorPorHora * interfazHoras) + (valorPorHora * htmlHoras) + (valorPorHora * jsHoras)
-        document.getElementById('valorTotal').value = '$'+resultado
+        document.getElementById('valorTotal').value = resultado
     })
   };
 
