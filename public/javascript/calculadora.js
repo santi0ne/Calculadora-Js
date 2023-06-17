@@ -13,8 +13,10 @@ let funcionPredeterminada = () => {
         let interfazHoras = document.getElementById('interfazHoras').value;
         let htmlHoras = document.getElementById('desarrolloHtml').value;
         let jsHoras = document.getElementById('logicJavascript').value;
+        let funcHoras = document.getElementById('funcAdicionales').value;
+        let testHoras = document.getElementById('testing').value
 
-        let resultado = (valorPorHora * interfazHoras) + (valorPorHora * htmlHoras) + (valorPorHora * jsHoras);
+        let resultado = (valorPorHora * interfazHoras) + (valorPorHora * htmlHoras) + (valorPorHora * jsHoras) + (valorPorHora * funcHoras) + (valorPorHora * testHoras);
         document.getElementById('valorTotal').value = '$'+resultado;
     })
   };
